@@ -1,0 +1,28 @@
+<h1 class="text-2xl border-b mb-8">Register</h1>
+<div class="flex justify-center">
+  <form class="w-full max-w-xs space-y-2" method="post" action="/auth/register">
+    <div>
+      <label class="block" for="name">Name</label>
+      <input class="w-full p-0.5 border border-solid border-blue-600 rounded" type="text" name="name" id="name" />
+    </div>
+
+    <div>
+      <label class="block" for="email">Email</label>
+      <input class="w-full p-0.5 border border-solid border-blue-600 rounded" type="text" name="email" id="email" />
+    </div>
+
+    <div>
+      <label class="block" for="password">Password</label>
+      <input class="w-full p-0.5 border border-solid border-blue-600 rounded" type="password" name="password"
+        id="password" />
+    </div>
+
+    <div>
+      <label class="block" for="passwordConfirm">Confirm password</label>
+      <input class="w-full p-0.5 border border-solid border-blue-600 rounded" type="password" name="passwordConfirm"
+        id="passwordConfirm" />
+    </div>
+
+    <button type="submit" class="max-w-xs px-2 py-1 bg-blue-600 text-white rounded">Login</button>
+  </form>
+</div>

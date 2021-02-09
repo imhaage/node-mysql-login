@@ -13,4 +13,5 @@ chmod +x setup-db.sh
 ./setup-db.sh
 ```
 
-Visit URL
+App : http:localhost:3000
+Adminer : http:localhost:8080

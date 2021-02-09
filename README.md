@@ -13,6 +13,6 @@ chmod +x setup-db.sh
 ./setup-db.sh
 ```
 
-App : http:localhost:3000
+App : http://localhost:3000
 
-Adminer : http:localhost:8080
+Adminer : http://localhost:8080

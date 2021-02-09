@@ -1,12 +1,12 @@
-FROM node:12
+FROM node:14
 
-WORKDIR /app
+WORKDIR /usr/src/app
 
-COPY ["package.json", "package-lock.json*", "npm-shrinkwrap.json*", "./"]
+COPY ./src/package*.json ./
 
-RUN npm install && mv node_modules ../
+RUN npm install
 
-COPY . .
+COPY ./src .
 
 EXPOSE 3000
 
